@@ -1,24 +1,17 @@
-To develop locally:
+# 📘 Hanzi Public API (Fastify + Supabase)
 
-```
-npm install
-vc dev
-```
+A public API for retrieving Hanzi data based on level, ID, search query, and random selection.  
+Built with **Fastify**, **TypeScript**, and **Supabase**.
 
-```
-open http://localhost:3000
-```
+---
 
-To build locally:
+## 🚀 Features
 
-```
-npm install
-vc build
-```
+- Fetch all Hanzi
+- Fetch Hanzi by ID
+- Fetch Hanzi by level
+- Search Hanzi (character, pinyin, meaning)
+- Get a random Hanzi
+- Clean and consistent JSON responses
 
-To deploy:
-
-```
-npm install
-vc deploy
-```
+---
